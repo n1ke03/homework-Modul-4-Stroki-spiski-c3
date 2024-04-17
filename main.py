@@ -20,4 +20,7 @@ list2 = [random.randint(-10, 10) for i in range(10)]
 print(list1,'\n',list2)
 task1 = list1 + list2
 task2 = list(set(task1))
-print(task1,'\n',task2)
+task3 = []
+for i in list1:
+  if i in list2:
+    task3.append(i)
