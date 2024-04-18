@@ -24,3 +24,4 @@ task3 = []
 for i in list1:
   if i in list2:
     task3.append(i)
+print(task3)
