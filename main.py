@@ -24,4 +24,6 @@ task3 = []
 for i in list1:
   if i in list2:
     task3.append(i)
-print(task3)
+task4 = list(set(list1).difference(set(list2))) + list(set(list2).difference(set(list1)))
+task5 = [min(list1), max(list1), min(list2), max(list2)]
+print('1) ',task1,'\n','2) ',task2,'\n','3) ',task3,'\n','4) ',task4,'\n','5) ',task5 )
